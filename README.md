@@ -42,13 +42,6 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ankit6370232757&theme=radical" alt="GitHub Trophies" />
-</p>
-
----
 
 ## 🔗 Connect With Me
 
