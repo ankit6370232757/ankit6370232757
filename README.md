@@ -10,7 +10,7 @@
 💼 B.Tech CSE | Gandhi Institute for Education and Technology  
 📍 Based in **Bhubaneswar, Odisha**  
 💬 Ask me about **HTML, CSS, JavaScript, React, Node.js, MongoDB**  
-📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/yourname/) *(replace with your real link)*  
+📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/ankit-kumar-rath-609020339/) 
 🎯 Goal: Become a full-stack developer at a leading tech firm
 
 ---
@@ -45,7 +45,7 @@
 
 ## 🔗 Connect With Me
 
-- 📫 Email: `your-email@example.com`
+- 📫 Email: `ankitkumarrath5@gmail.com`
 - 💼 [LinkedIn](https://www.linkedin.com/in/ankit-kumar-rath-609020339/) 
 - 🌐 Portfolio: (https://ankitrathportfolio.netlify.app/)
 
