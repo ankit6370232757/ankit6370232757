@@ -47,7 +47,7 @@
 
 - 📫 Email: `ankitkumarrath5@gmail.com`
 - 💼 [LinkedIn](https://www.linkedin.com/in/ankit-kumar-rath-609020339/) 
-- 🌐 Portfolio: (https://ankitrathportfolio.netlify.app/)
+- 🌐 Portfolio: (https://ankitrathportfolios.netlify.app/)
 
 ---
 
