@@ -1,4 +1,7 @@
 <!-- Profile README for Ankit Kumar Rath -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto&size=28&pause=1500&color=2F80ED&center=true&vCenter=true&width=800&height=60&lines=Hi,+I'm+Ankit+Kumar+Rath;Aspiring+Full-Stack+Developer;MERN+Stack+|+Building+MedMind" alt="Typing SVG" />
+</p>
 
 <h1 align="center">Hi there 👋, I'm Ankit Kumar Rath</h1>
 <h3 align="center">Aspiring Full-Stack Developer | MERN Stack Enthusiast</h3>
@@ -63,37 +66,6 @@
 - 🔧 A Salon Appointment & Management System using **MERN Stack**
 - 🧪 Personal Portfolio Website using **React + Tailwind CSS**
 - 📚 Improving backend skills with **Node.js** and **MongoDB**
-name: Generate contribution snake
-
-on:
-  schedule:
-    - cron: '0 */12 * * *'   # run twice per day (change as you like)
-  workflow_dispatch:         # allows manual run
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate SVG + GIF from contribution graph
-        uses: Platane/snk@v3
-        with:
-          # the action defaults to the repository owner when left empty
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish generated images to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          build_dir: dist
-          target_branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 ---
