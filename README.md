@@ -63,11 +63,38 @@
 - 🔧 A Salon Appointment & Management System using **MERN Stack**
 - 🧪 Personal Portfolio Website using **React + Tailwind CSS**
 - 📚 Improving backend skills with **Node.js** and **MongoDB**
-<!-- Dark SVG -->
-![Snake animation dark](https://raw.githubusercontent.com/ankit6370232757/ankit6370232757/output/github-contribution-grid-snake-dark.svg)
+name: Generate contribution snake
 
-<!-- Or a GIF -->
-![Snake GIF](https://raw.githubusercontent.com/ankit6370232757/ankit6370232757/output/ocean.gif)
+on:
+  schedule:
+    - cron: '0 */12 * * *'   # run twice per day (change as you like)
+  workflow_dispatch:         # allows manual run
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate SVG + GIF from contribution graph
+        uses: Platane/snk@v3
+        with:
+          # the action defaults to the repository owner when left empty
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish generated images to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 ---
 
