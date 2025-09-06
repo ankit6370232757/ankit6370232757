@@ -1,5 +1,8 @@
 <!-- Profile README for Ankit Kumar Rath -->
-
+<!-- Typing SVG intro -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto&size=28&pause=1500&color=2F80ED&center=true&vCenter=true&width=800&height=60&lines=Hi,+I'm+Ankit+Kumar+Rath;Aspiring+Full-Stack+Developer;MERN+Stack+|+Building+MedMind" alt="Typing SVG" />
+</p>
 <h1 align="center">Hi there 👋, I'm Ankit Kumar Rath</h1>
 <h3 align="center">Aspiring Full-Stack Developer | MERN Stack Enthusiast</h3>
 
